@@ -1,0 +1,21 @@
+ipykernel
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+scikit-learn
+pymongo
+from_root
+dill
+certifi
+PyYAML
+boto3
+mypy-boto3-s3
+botocore
+fastapi
+python-multipart
+uvicorn
+jinja2
+imblearn
+-e .  #this is for installing (by using setup.py) the current local packages (the classes we created) in src to avoid future errors , it would be installed in venv and we will not got any issues to use src outside the src directory
