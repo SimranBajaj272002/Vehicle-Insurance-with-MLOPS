@@ -169,10 +169,10 @@ Automate deployments using Docker, GitHub Actions, and AWS EC2.
 
 ### 4. Launching the App
 
-* Edit the EC2 Security Group inbound rules to allow Custom TCP traffic on port `5080` from `0.0.0.0/0`.
+* Edit the EC2 Security Group inbound rules to allow Custom TCP traffic on port `5000` from `0.0.0.0/0`.
 
 
-* Access the live web application by visiting `<your-ec2-public-ip>:5080` in your browser.
+* Access the live web application by visiting `<your-ec2-public-ip>:5000` in your browser.
 
 
 * You can trigger a new model training cycle directly via the `/training` route.
