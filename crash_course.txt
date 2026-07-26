@@ -132,3 +132,7 @@ sudo systemctl enable actions.runner.<your-runner-name>.service
 - **Replace `<your-runner-name>`**: When checking the status or enabling the service, replace `<your-runner-name>` with the specific name of your runner service. You can find the name of the service by running `systemctl list-units | grep actions.runner`.
 
 - **Re-reg
+
+- to stop the service 
+sudo ./svc.sh stop
+sudo ./svc.sh uninstall
